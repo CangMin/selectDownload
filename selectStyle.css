@@ -1,0 +1,158 @@
+	div{
+		margin:20px auto;
+		width:200px;
+		}
+	.newSelect{
+		width:150px;
+		height:35px;
+		position:relative;
+		background-color:#697076;
+		border-top-left-radius:5px;
+		border-bottom-left-radius:5px;
+		border-top-right-radius:5px;
+		background:#697076 url(icon.png) no-repeat 126px;
+		box-shadow:0px 1px 5px #2b2f30;
+		font-family:"微软雅黑";
+
+	}
+	.newSelect:hover{
+		cursor:pointer;
+	}
+	.btn-select{
+		position:relative;
+		display:inline-block;
+		width:120px;
+		height:35px;		
+		font:14px;
+		text-decoration:none;	
+		z-index:999;
+	}
+	.text-select{
+		position:absolute;
+		display:block;
+		width:120px;
+		height:33px;
+		line-height:33px;
+		background-color:#8f969e;
+		font-size:15px;
+		color:#3c454c;
+		border:1px solid #000;
+		border-top-left-radius:5px;
+		border-bottom-left-radius:5px;
+		font-weight:bold;
+		text-align:center;
+	}
+	
+	select{
+		width:150px;
+		height:33px;
+		border:none;
+		appearance:none;
+		-moz-appearance:none;
+		-webkit-appearance:none;
+		background:url() no-repeat scroll right center #818a91;
+		padding-right:14px;
+		color:#394249;
+		opacity:0;
+		filter:alpha(opacity:0;);
+		position:absolute;
+		top:0;
+		left:0;
+
+
+	}
+	select option{
+		background-color:#697076;
+		color:#dbdee3;
+		border-color:#697076;
+		z-index:-1;
+
+	}
+	select option:hover{
+		background-color:#3b3e43;
+		color:#929aa5;
+		cursor:pointer;
+	}
+
+	/*ul版*/
+	.newSelect1{
+		width:150px;
+		height:35px;
+		position:relative;
+		background-color:#697076;
+		border-radius:5px;
+		box-shadow:0px 1px 5px #2b2f30;
+		font-family:"微软雅黑";
+		position:relative;
+	}
+	.btn-select{	
+		position:absolute;
+		display:block;
+		width:120px;
+		height:33px;
+		line-height:33px;
+		background-color:#8f969e;
+		font-size:15px;
+		color:#3c454c;
+		border:1px solid #000;
+		border-top-left-radius:5px;
+		border-bottom-left-radius:5px;
+		font-weight:bold;
+		text-align:center;
+		text-decoration:none;	
+		z-index:999;
+	}
+	.icon-select{
+		background:url(icon.png) no-repeat center;
+		display:inline-block;
+		width:30px;
+		height:35px;
+		float:right;
+		cursor:pointer;
+	}
+	#options{
+		position:absolute;
+		top:19px;
+		left:0;
+		width:150px;
+		background-color:#697076;
+		padding:0;
+		list-style: none;
+		display:none;
+		border-bottom-left-radius:5px;
+		border-bottom-right-radius:5px;
+		box-shadow:0px 1px 5px #2b2f30;
+		z-index:999;
+	}
+	#options > #excep{
+		height:25px;
+    	line-height:25px;
+		padding:0;
+		color:#e6ebf0;
+	}
+	#options > #excep:hover{
+
+		color:#e6ebf0;
+		cursor:default;
+	}
+	#options li{
+		height:35px;
+		line-height:29px;
+		font-size:14px;
+		text-align:center;
+		cursor:pointer;
+		
+	}
+	#options li a{
+		text-decoration:none;
+		color:#b1b4b7;
+		width:130px;
+		display:inline-block;
+	}
+	#options li a:hover{
+		background-color:#3b3e43;
+		color:white;
+		font-size:15px;
+		border-radius:5px;
+
+	}
